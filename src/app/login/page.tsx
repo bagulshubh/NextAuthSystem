@@ -4,7 +4,7 @@ import {useRouter} from "next/navigation"
 import axios from "axios"
 import Link from "next/link";
 
-const page = () => {
+const Login = () => {
     const router = useRouter();
     const [user,setUser] = useState({
         email:"",
@@ -73,4 +73,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Login
